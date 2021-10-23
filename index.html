@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ 
+  <style>
+    h4 {
+      text-decoration: underline;
+    }
+
+    td, th {
+      width : 200px;
+    }
+
+    .table_visibility{
+      display:none;
+    }
+
+
+  </style> 
+
+   <script src="default.js"></script>
+</head>
+<body>
+  <button id="add_form">Add Form</button>
+  <h4>Form:</h4>
+  <div id="add_item">
+  </div>
+  <h4>Item List: </h4>
+  <div id="list_items">
+
+    <table border="1" width="40%" class="table_visibility" id="table_items">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+        
+      </thead>
+      <tbody id="bbody">
+
+      </tbody>
+    </table>
+
+  </div>
+  <h4>Edit: </h4>
+  <div id="edit_item"> 
+  </div> 
+
+</body>
+</html>
